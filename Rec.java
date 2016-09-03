@@ -22,6 +22,7 @@ public class Rec {
 		// fill me in
 >>>>>>> removeChar
 
+<<<<<<< HEAD
 	}
 
 	/**
@@ -39,6 +40,31 @@ public class Rec {
 	 * = a copy of s with to_remove_char removed. Example: removeChar("abeabe",
 	 * 'e') = "abab".
 	 */
+=======
+    /** = sum of the digits in the decimal representation of n.
+      e.g. sumDigits(0) = 0, sumDigits(3) = 3, sumDigits(34) = 7,
+      sumDigits(345) = 12.
+      Precondition: n >= 0. */
+    public static int sumDigits(int n) {
+	
+	// fill me in
+    	
+    
+            int sum = 0;
+            
+            while (n != 0) {
+                  
+                  sum += n % 10;
+                  
+                  n /= 10;
+            }
+           return sum;
+      
+    }
+	
+    /** = a copy of s with to_remove_char removed.
+		Example: removeChar("abeabe", 'e') = "abab". */
+>>>>>>> 86677676aefee12095f281a8c113243951ccc81e
 	public static String removeChar(String s, char to_remove_char) {
 		String a = "";
 		for (int i = 0; i < s.length(); i++) {
