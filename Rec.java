@@ -6,8 +6,9 @@ public class Rec {
 		numDigits(1356) = 4.
 		Precondition: n >= 0. */
     public static int numDigits(int n) {
-	
-	// fill me in
+    	String s = Integer.toString(n);
+    	
+    	return s.length();
 	
     }
 
